@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF1144221CD9E95100A261C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1144211CD9E95100A261C9 /* AppDelegate.swift */; };
+		EF1144241CD9E95100A261C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1144231CD9E95100A261C9 /* ViewController.swift */; };
+		EF1144271CD9E95100A261C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1144251CD9E95100A261C9 /* Main.storyboard */; };
+		EF1144291CD9E95100A261C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1144281CD9E95100A261C9 /* Assets.xcassets */; };
+		EF11442C1CD9E95100A261C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF11442A1CD9E95100A261C9 /* LaunchScreen.storyboard */; };
+		EF1144371CD9E95100A261C9 /* DMMemoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1144361CD9E95100A261C9 /* DMMemoryTests.swift */; };
+		EF1144421CD9E95100A261C9 /* DMMemoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1144411CD9E95100A261C9 /* DMMemoryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF1144331CD9E95100A261C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1144161CD9E95100A261C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF11441D1CD9E95100A261C9;
+			remoteInfo = DMMemory;
+		};
+		EF11443E1CD9E95100A261C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1144161CD9E95100A261C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF11441D1CD9E95100A261C9;
+			remoteInfo = DMMemory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF11441E1CD9E95100A261C9 /* DMMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1144211CD9E95100A261C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF1144231CD9E95100A261C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF1144261CD9E95100A261C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF1144281CD9E95100A261C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF11442B1CD9E95100A261C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF11442D1CD9E95100A261C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1144321CD9E95100A261C9 /* DMMemoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMMemoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1144361CD9E95100A261C9 /* DMMemoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMMemoryTests.swift; sourceTree = "<group>"; };
+		EF1144381CD9E95100A261C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF11443D1CD9E95100A261C9 /* DMMemoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMMemoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1144411CD9E95100A261C9 /* DMMemoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMMemoryUITests.swift; sourceTree = "<group>"; };
+		EF1144431CD9E95100A261C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF11441B1CD9E95100A261C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF11442F1CD9E95100A261C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF11443A1CD9E95100A261C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF1144151CD9E95100A261C9 = {
+			isa = PBXGroup;
+			children = (
+				EF1144201CD9E95100A261C9 /* DMMemory */,
+				EF1144351CD9E95100A261C9 /* DMMemoryTests */,
+				EF1144401CD9E95100A261C9 /* DMMemoryUITests */,
+				EF11441F1CD9E95100A261C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF11441F1CD9E95100A261C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF11441E1CD9E95100A261C9 /* DMMemory.app */,
+				EF1144321CD9E95100A261C9 /* DMMemoryTests.xctest */,
+				EF11443D1CD9E95100A261C9 /* DMMemoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF1144201CD9E95100A261C9 /* DMMemory */ = {
+			isa = PBXGroup;
+			children = (
+				EF1144211CD9E95100A261C9 /* AppDelegate.swift */,
+				EF1144231CD9E95100A261C9 /* ViewController.swift */,
+				EF1144251CD9E95100A261C9 /* Main.storyboard */,
+				EF1144281CD9E95100A261C9 /* Assets.xcassets */,
+				EF11442A1CD9E95100A261C9 /* LaunchScreen.storyboard */,
+				EF11442D1CD9E95100A261C9 /* Info.plist */,
+			);
+			path = DMMemory;
+			sourceTree = "<group>";
+		};
+		EF1144351CD9E95100A261C9 /* DMMemoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF1144361CD9E95100A261C9 /* DMMemoryTests.swift */,
+				EF1144381CD9E95100A261C9 /* Info.plist */,
+			);
+			path = DMMemoryTests;
+			sourceTree = "<group>";
+		};
+		EF1144401CD9E95100A261C9 /* DMMemoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF1144411CD9E95100A261C9 /* DMMemoryUITests.swift */,
+				EF1144431CD9E95100A261C9 /* Info.plist */,
+			);
+			path = DMMemoryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF11441D1CD9E95100A261C9 /* DMMemory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1144461CD9E95100A261C9 /* Build configuration list for PBXNativeTarget "DMMemory" */;
+			buildPhases = (
+				EF11441A1CD9E95100A261C9 /* Sources */,
+				EF11441B1CD9E95100A261C9 /* Frameworks */,
+				EF11441C1CD9E95100A261C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMMemory;
+			productName = DMMemory;
+			productReference = EF11441E1CD9E95100A261C9 /* DMMemory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF1144311CD9E95100A261C9 /* DMMemoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1144491CD9E95100A261C9 /* Build configuration list for PBXNativeTarget "DMMemoryTests" */;
+			buildPhases = (
+				EF11442E1CD9E95100A261C9 /* Sources */,
+				EF11442F1CD9E95100A261C9 /* Frameworks */,
+				EF1144301CD9E95100A261C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF1144341CD9E95100A261C9 /* PBXTargetDependency */,
+			);
+			name = DMMemoryTests;
+			productName = DMMemoryTests;
+			productReference = EF1144321CD9E95100A261C9 /* DMMemoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF11443C1CD9E95100A261C9 /* DMMemoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF11444C1CD9E95100A261C9 /* Build configuration list for PBXNativeTarget "DMMemoryUITests" */;
+			buildPhases = (
+				EF1144391CD9E95100A261C9 /* Sources */,
+				EF11443A1CD9E95100A261C9 /* Frameworks */,
+				EF11443B1CD9E95100A261C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF11443F1CD9E95100A261C9 /* PBXTargetDependency */,
+			);
+			name = DMMemoryUITests;
+			productName = DMMemoryUITests;
+			productReference = EF11443D1CD9E95100A261C9 /* DMMemoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF1144161CD9E95100A261C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = 21;
+				TargetAttributes = {
+					EF11441D1CD9E95100A261C9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = UQR8N3528M;
+					};
+					EF1144311CD9E95100A261C9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = UQR8N3528M;
+						TestTargetID = EF11441D1CD9E95100A261C9;
+					};
+					EF11443C1CD9E95100A261C9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = UQR8N3528M;
+						TestTargetID = EF11441D1CD9E95100A261C9;
+					};
+				};
+			};
+			buildConfigurationList = EF1144191CD9E95100A261C9 /* Build configuration list for PBXProject "DMMemory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF1144151CD9E95100A261C9;
+			productRefGroup = EF11441F1CD9E95100A261C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF11441D1CD9E95100A261C9 /* DMMemory */,
+				EF1144311CD9E95100A261C9 /* DMMemoryTests */,
+				EF11443C1CD9E95100A261C9 /* DMMemoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF11441C1CD9E95100A261C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF11442C1CD9E95100A261C9 /* LaunchScreen.storyboard in Resources */,
+				EF1144291CD9E95100A261C9 /* Assets.xcassets in Resources */,
+				EF1144271CD9E95100A261C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1144301CD9E95100A261C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF11443B1CD9E95100A261C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF11441A1CD9E95100A261C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1144241CD9E95100A261C9 /* ViewController.swift in Sources */,
+				EF1144221CD9E95100A261C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF11442E1CD9E95100A261C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1144371CD9E95100A261C9 /* DMMemoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1144391CD9E95100A261C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1144421CD9E95100A261C9 /* DMMemoryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF1144341CD9E95100A261C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF11441D1CD9E95100A261C9 /* DMMemory */;
+			targetProxy = EF1144331CD9E95100A261C9 /* PBXContainerItemProxy */;
+		};
+		EF11443F1CD9E95100A261C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF11441D1CD9E95100A261C9 /* DMMemory */;
+			targetProxy = EF11443E1CD9E95100A261C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF1144251CD9E95100A261C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1144261CD9E95100A261C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF11442A1CD9E95100A261C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF11442B1CD9E95100A261C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF1144441CD9E95100A261C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF1144451CD9E95100A261C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF1144471CD9E95100A261C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DMMemory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netouch.DMMemory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF1144481CD9E95100A261C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DMMemory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netouch.DMMemory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF11444A1CD9E95100A261C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DMMemoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netouch.DMMemoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMMemory.app/DMMemory";
+			};
+			name = Debug;
+		};
+		EF11444B1CD9E95100A261C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DMMemoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netouch.DMMemoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMMemory.app/DMMemory";
+			};
+			name = Release;
+		};
+		EF11444D1CD9E95100A261C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DMMemoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netouch.DMMemoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DMMemory;
+			};
+			name = Debug;
+		};
+		EF11444E1CD9E95100A261C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DMMemoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netouch.DMMemoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DMMemory;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF1144191CD9E95100A261C9 /* Build configuration list for PBXProject "DMMemory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1144441CD9E95100A261C9 /* Debug */,
+				EF1144451CD9E95100A261C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1144461CD9E95100A261C9 /* Build configuration list for PBXNativeTarget "DMMemory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1144471CD9E95100A261C9 /* Debug */,
+				EF1144481CD9E95100A261C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF1144491CD9E95100A261C9 /* Build configuration list for PBXNativeTarget "DMMemoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF11444A1CD9E95100A261C9 /* Debug */,
+				EF11444B1CD9E95100A261C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF11444C1CD9E95100A261C9 /* Build configuration list for PBXNativeTarget "DMMemoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF11444D1CD9E95100A261C9 /* Debug */,
+				EF11444E1CD9E95100A261C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF1144161CD9E95100A261C9 /* Project object */;
+}
