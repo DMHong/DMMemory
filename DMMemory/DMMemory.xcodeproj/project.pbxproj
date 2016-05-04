@@ -14,6 +14,7 @@
 		EF11442C1CD9E95100A261C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF11442A1CD9E95100A261C9 /* LaunchScreen.storyboard */; };
 		EF1144371CD9E95100A261C9 /* DMMemoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1144361CD9E95100A261C9 /* DMMemoryTests.swift */; };
 		EF1144421CD9E95100A261C9 /* DMMemoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1144411CD9E95100A261C9 /* DMMemoryUITests.swift */; };
+		EF1144501CD9EA1600A261C9 /* LayerMaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF11444F1CD9EA1600A261C9 /* LayerMaskController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EF11443D1CD9E95100A261C9 /* DMMemoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMMemoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1144411CD9E95100A261C9 /* DMMemoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMMemoryUITests.swift; sourceTree = "<group>"; };
 		EF1144431CD9E95100A261C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF11444F1CD9EA1600A261C9 /* LayerMaskController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerMaskController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				EF1144211CD9E95100A261C9 /* AppDelegate.swift */,
 				EF1144231CD9E95100A261C9 /* ViewController.swift */,
+				EF11444F1CD9EA1600A261C9 /* LayerMaskController.swift */,
 				EF1144251CD9E95100A261C9 /* Main.storyboard */,
 				EF1144281CD9E95100A261C9 /* Assets.xcassets */,
 				EF11442A1CD9E95100A261C9 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF1144501CD9EA1600A261C9 /* LayerMaskController.swift in Sources */,
 				EF1144241CD9E95100A261C9 /* ViewController.swift in Sources */,
 				EF1144221CD9E95100A261C9 /* AppDelegate.swift in Sources */,
 			);
